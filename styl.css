@@ -1154,12 +1154,14 @@ input[type="reset"]{
   input[type="submit"]{
     width: 140px;
     font-size: 22px;
-    margin-left: 30px;
   }
   input[type="reset"]{
     width: 160px;
     font-size: 22px;
   }
+    .przyciski{
+        margin-left: 50px;
+    }
   .logo:active{
     transform: rotate(720deg);
   }
