@@ -1194,5 +1194,15 @@ input[type="reset"]{
     margin-right: 200px;
    width: 85%;
   }
- 
+ input[type="submit"]{
+    width: 140px;
+    font-size: 22px;
+  }
+  input[type="reset"]{
+    width: 160px;
+    font-size: 22px;
+  }
+    .przyciski{
+        margin-left: 20px;
+    }
 }
