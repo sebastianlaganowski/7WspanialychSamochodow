@@ -1160,7 +1160,7 @@ input[type="reset"]{
     font-size: 22px;
   }
     .przyciski{
-        margin-left: 50px;
+        margin-left: 20px;
     }
   .logo:active{
     transform: rotate(720deg);
