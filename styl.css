@@ -1138,7 +1138,7 @@ input[type="reset"]{
       letter-spacing: 3px;
     }
     input[type="text"]{
-      width: 22%;
+      width: 15%;
   }
   input[type="number"]{
     width: 35%;
