@@ -1151,7 +1151,6 @@ input[type="reset"]{
   input[type="submit"]{
     width: 140px;
     font-size: 22px;
-    margin-left: 20px;
   }
   input[type="reset"]{
     width: 160px;
