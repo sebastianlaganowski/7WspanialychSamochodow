@@ -609,7 +609,7 @@ margin-bottom: 30px;
     margin-right: 40px;
     font-weight: bolder;
       font-size: 30px;
-      text-align: center;
+
       font-family:Arial, Helvetica, sans-serif;
       letter-spacing: 5px;
       color:white;
@@ -1138,7 +1138,7 @@ input[type="reset"]{
       letter-spacing: 3px;
     }
     input[type="text"]{
-      width: 10%;
+      width: 35%;
   }
   input[type="number"]{
     width: 35%;
@@ -1149,10 +1149,14 @@ input[type="reset"]{
   input[type="submit"]{
     width: 140px;
     font-size: 22px;
+    margin-left: 40px;
   }
   input[type="reset"]{
     width: 160px;
     font-size: 22px;
+  }
+  .logo:active{
+    transform: rotate(720deg);
   }
   .slideshow-container {
     display: block;
@@ -1189,7 +1193,8 @@ input[type="reset"]{
   font-size: 25px;
 }
   .ul{
-    margin: 0;
-   width: 100%;
+    margin-left: 0;
+    margin-right: 200px;
+   width: 85%;
   }
 }
