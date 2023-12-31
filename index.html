@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 wspaniałych samochodów</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<header>
+    <button id="menuBtn">
+        <div class="menuLine"></div>
+        <div class="menuLine"></div>
+        <div class="menuLine1"></div>
+    </button>
+    <div class="menu" id="menu" for="menuBtn">
+        <button class="menuBtn" id="poczatek"><span class="org">Początek</span><div class="altArrow"></div></button>
+        <div class="line"></div>
+        <button class="menuBtn" id="zdjeciaBtn"><span class="org">Zdjęcia</span><span class="alt">Zdj</span></button>
+        <div class="line"></div>
+        <button class="menuBtn" id="infoBtn"><span class="org">Informcje</span><span class="alt">Info</span></button>
+        <div class="line"></div>
+        <button class="menuBtn" id="ankietaBtn"><span class="org">Formularz</span><span class="alt">Fm</span></button>
+        <div class="line"></div>
+        <button class="menuBtn" id="tabelaBtn"><span class="org">Tabela</span><span class="alt">Tab</span></button>
+        <div class="line"></div>
+        <button class="menuBtn" id="listaBtn"><span class="org">Lista</span><span class="alt">List</span></button>
+    </div>
+</header>
+<div> 
+    <div class="Poczatek">
+        <div class="bold">7</div>
+        <div class="h1"> WSPANIAŁYCH SAMOCHODÓW</div>
+        <h1> <span class="bold1">7</span> WSPANIAŁYCH SAMOCHODÓW</h1>
+        <div class="logo">
+          <div class="srodek">
+            <div class="kolo"></div>
+            <div class="kolo-srodek"></div>
+            <div class="sprycha1"></div>
+            <div class="krecha1"></div>
+            <div class="sprycha2"></div>
+            <div class="krecha2"></div>
+            <div class="sprycha3"></div>
+            <div class="krecha3"></div>
+            <div class="sprycha4"></div>
+            <div class="krecha4"></div>
+            <div class="sprycha5"></div>
+            <div class="krecha5"></div>
+          </div>
+        </div>
+        
+    </div>
+    <section>
+    <hr class="hr" id="zdjecia">
+    <div>
+        <p class="p">GALERIA ZDJĘĆ</p>
+        <div class="container">
+            <div class="box">
+              <img src="foto/img1.jpg">
+              <div class="p1">Audi RS 6</div>
+            </div>
+            <div class="box">
+                <img src="foto/img2.jpg">
+                <div class="p1">Koeningsegg <br>Jesko</div>
+              </div>
+              <div class="box">
+                <img src="foto/img3.jpg">
+                <div class="p1">BMW M5</div>
+              </div>
+              <div class="box">
+                <img src="foto/img4.jpg">
+                <div class="p1">Porsche <br>GT3RS</div>
+              </div>
+              <div class="box">
+                <img src="foto/img5.jpg">
+                <div class="p1">Nissan GT-R NISMO</div>
+              </div>
+              <div class="box">
+                <img src="foto/img6.jpeg">
+                <div class="p1">Lamborghini Urus</div>
+              </div>
+              <div class="box">
+                <img src="foto/img7.jpg">
+                <div class="p1">Ferrari F40</div>
+              </div>
+          </div>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="foto/img1.jpg" style="width:100%">
+    <div class="text">Audi RS 6</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="foto/img2.jpg" style="width:100%">
+    <div class="text">Koeningsegg Jesko</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="foto/img3.jpg" style="width:100%">
+    <div class="text">BMW M5</div>
+  </div>
+  <div class="mySlides fade">
+    <img src="foto/img4.jpg" style="width:100%">
+    <div class="text">Porsche GT3RS</div>
+  </div>
+  <div class="mySlides fade">
+    <img src="foto/img5.jpg" style="width:100%">
+    <div class="text">Nissan GT-R NISMO</div>
+  </div>
+  <div class="mySlides fade">
+    <img src="foto/img6.jpeg" style="width:100%">
+    <div class="text">Lamborghini Urus</div>
+  </div>
+  <div class="mySlides fade">
+    <img src="foto/img7.jpg" style="width:100%">
+    <div class="text">Ferrari F40</div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+    </div>
+    </section>
+    <section> 
+    <hr class="hr" id="info">
+    <div class="info">
+        <p class="p">INFORMACJE</p>
+        <div class="arrow"></div>
+        <a href="index_opis.html"><button class="opis" id="opis">Informacje o samochodach</button></a>
+    </div>
+    </section>
+    <section>
+        <hr class="hr" id="ankieta">
+        <p class="p">FORMULARZ</p>
+        <form method="POST" class="form">
+            <label class="formIn" for="text">Jaki jest twój ulubiony samochód: </label><input class="formIn" type="text" id="text" required>
+            <br>
+            <label class="formIn"  for="num">Ile masz samochodów: </label><input class="formIn" type="number" id="num" min="0" required>
+            <br>
+            <label  class="formIn" >Czy podobają ci się przedstawione na stronie samochody: </label>
+            <br>
+            <label  for="radio" class="radioLabel">Tak</label><input type="radio" name="radio" id="radio" required>
+            <label for="radio1" class="radioLabel">Nie</label><input type="radio" name="radio" id="radio1"required>
+            <br>
+            <label class="formIn"  for="email">Podaj swój e-mail: </label><input type="email" id="email" class="formIn" placeholder="opcjonalne">
+            <br>
+            <input type="submit" id="submit" class="formIn" value="Wyślij">
+            <input type="reset" id="reset" class="formIn" value="Wyczyść">
+        </form>
+    </section>
+<section>
+    <hr class="hr" id="tabela">
+    <p class="p">TABELA</p>
+    <div class="tablec">
+    <table class="tabela">
+      <tr>
+          <td class="a">Auto</td>
+          <td class="d">Opis</td>
+      </tr>
+      <tr>
+          <td class="e">Audi RS 6</td>
+          <td class="c">Audi RS6 to wydajne sportowe kombi, charakteryzujące się eleganckim designem i potężnym silnikiem V8 o imponującej mocy. Kombinuje luksusową klasę z doskonałymi osiągami, będąc idealnym wyborem dla miłośników sportowego stylu życia.</td>
+      </tr>
+      <tr>
+          <td class="b">Koeningsegg Jesko</td>
+          <td class="c"><div class="line1"></div><br>Koenigsegg Jesko to hipersamochód o niezrównanej wydajności, wyprodukowany przez szwedzką firmę Koenigsegg. Zasilany potężnym silnikiem V8, Jesko wyróżnia się zaawansowaną technologią aerodynamiczną i lekką konstrukcją, zapewniając niesamowite osiągi na torze i drodze.</td>
+      </tr>
+      <tr>
+          <td class="b">BMW M5</td>
+          <td class="c"><div class="line1"></div><br>BMW M5 to high-performance sports sedan, łączący luksusową klasę z potężnym silnikiem i doskonałymi osiągami. Zazwyczaj napędzany silnikiem wysokoprężnym lub benzynowym, model M5 jest również wyposażony w zaawansowane technologie jazdy oraz charakteryzuje się dynamicznym designem.</td>
+      </tr>
+      <tr>
+          <td class="b">Porsche GT3RS</td>
+          <td class="c"><div class="line1"></div><br>Porsche 911 GT3 RS to wersja ultrawydajnego sportowego samochodu, dedykowana entuzjastom jazdy na torze. Znana ze swojego lekkiego podejścia, zaawansowanej aerodynamiki i wysokoobrotowego silnika, GT3 RS oferuje doskonałe osiągi i niezapomniane doznania za kierownicą.</td>
+      </tr>
+      <tr>
+          <td class="b">Nissan GT-R NISMO</td>
+          <td class="c"><div class="line1"></div><br>Nissan GT-R NISMO to wersja high-performance legendarnego modelu GT-R, zaprojektowana przez oddział NISMO (Nissan Motorsports International). Znana z zaawansowanej technologii, agresywnego wyglądu i potężnego silnika, GT-R NISMO oferuje doskonałe osiągi i dynamiczne właściwości jezdne.</td>
+      </tr>
+      <tr>
+        <td class="b">Lamborghini URUS</td>
+        <td class="c"><div class="line1"></div><br>Lamborghini Urus to luksusowy SUV o sportowym charakterze, łączący elegancję marki z potężnym silnikiem V8. Znany z imponującego designu, dynamicznych osiągów i zaawansowanego systemu napędu na wszystkie koła, Urus reprezentuje unikalne połączenie sportowej wydajności i wyjątkowego komfortu.</td>
+    </tr>
+    <tr>
+      <td class="b">Ferrari F40</td>
+      <td class="c"><div class="line1"></div><br>Ferrari F40 to legendarny hipersamochód, zaprojektowany w latach 80. przez włoskiego producenta Ferrari. Znany jest z charakterystycznego designu, lekkiej konstrukcji, oraz napędu V8 umieszczonego z tyłu, co sprawia, że F40 jest jednym z najbardziej kultowych i pożądanych modeli w historii samochodów sportowych.</td>
+  </tr>
+  </table>
+  <table class="tabela1">
+    <tr>
+    </tr>
+    <tr>
+        <td class="a">Audi RS 6</td>
+    </tr>
+    <tr>
+      <td class="c">Audi RS6 to wydajne sportowe kombi, charakteryzujące się eleganckim designem i potężnym silnikiem V8 o imponującej mocy. Kombinuje luksusową klasę z doskonałymi osiągami, będąc idealnym wyborem dla miłośników sportowego stylu życia.</td>
+    </tr>
+    <tr>
+        <td class="a">Koeningsegg Jesko</td>
+    </tr>
+    <tr>
+      <td class="c">Koenigsegg Jesko to hipersamochód o niezrównanej wydajności, wyprodukowany przez szwedzką firmę Koenigsegg. Zasilany potężnym silnikiem V8, Jesko wyróżnia się zaawansowaną technologią aerodynamiczną i lekką konstrukcją, zapewniając niesamowite osiągi na torze i drodze.</td>
+    </tr>
+    <tr>
+        <td class="a">BMW M5</td>
+    </tr>
+    <tr><td class="c">BMW M5 to high-performance sports sedan, łączący luksusową klasę z potężnym silnikiem i doskonałymi osiągami. Zazwyczaj napędzany silnikiem wysokoprężnym lub benzynowym, model M5 jest również wyposażony w zaawansowane technologie jazdy oraz charakteryzuje się dynamicznym designem.</td></tr>
+    <tr>
+        <td class="a">Porsche GT3RS</td>
+    </tr>
+    <tr>
+      <td class="c">Porsche 911 GT3 RS to wersja ultrawydajnego sportowego samochodu, dedykowana entuzjastom jazdy na torze. Znana ze swojego lekkiego podejścia, zaawansowanej aerodynamiki i wysokoobrotowego silnika, GT3 RS oferuje doskonałe osiągi i niezapomniane doznania za kierownicą.</td>
+    </tr>
+    <tr>
+        <td class="a">Nissan GT-R NISMO</td>
+    </tr>
+    <tr>
+      <td class="c">Nissan GT-R NISMO to wersja high-performance legendarnego modelu GT-R, zaprojektowana przez oddział NISMO (Nissan Motorsports International). Znana z zaawansowanej technologii, agresywnego wyglądu i potężnego silnika, GT-R NISMO oferuje doskonałe osiągi i dynamiczne właściwości jezdne.</td>
+    </tr>
+    <tr>
+      <td class="a">Lamborghini URUS</td>
+  </tr>
+  <tr>
+    <td class="c">Lamborghini Urus to luksusowy SUV o sportowym charakterze, łączący elegancję marki z potężnym silnikiem V8. Znany z imponującego designu, dynamicznych osiągów i zaawansowanego systemu napędu na wszystkie koła, Urus reprezentuje unikalne połączenie sportowej wydajności i wyjątkowego komfortu.</td>
+  </tr>
+  <tr>
+    <td class="a">Ferrari F40</td>
+</tr>
+<tr>
+  <td class="c">Ferrari F40 to legendarny hipersamochód, zaprojektowany w latach 80. przez włoskiego producenta Ferrari. Znany jest z charakterystycznego designu, lekkiej konstrukcji, oraz napędu V8 umieszczonego z tyłu, co sprawia, że F40 jest jednym z najbardziej kultowych i pożądanych modeli w historii samochodów sportowych.</td>
+</tr>
+</table>
+  </div>
+</section>
+<section>
+  <hr class="hr" id="lista">
+  <p class="p">LISTA</p>
+  <ul class="lista">
+    <li class="li1">Audi RS 6: <span class="span">V8, 4.0 l, 591 KM, 800 Nm, 0-100 km/h: 3.5 s, 250 km/h (limit), Quattro, Tiptronic, Air Suspension, Ceramic Brakes, 2,075 kg</span></li>
+    <li class="li1">Koenigsegg Jesko: <span class="span">V8, 5.0 l, 1,280 kW, 1,500 Nm, 0-100 km/h: <2.5 s, 500+ km/h, RWD, 9-Speed, Carbon Fiber Chassis, 1,420 kg</span></li>
+    <li class="li1">BMW M5: <span class="span">V8, 4.4 l, 625 KM, 750 Nm, 0-100 km/h: 3.3 s, 305 km/h, AWD, 8-Speed, M xDrive, Adaptive Suspension, Carbon Brakes, 1,985 kg</span></li>
+    <li class="li1">Porsche GT3RS: <span class="span">Flat-6, 4.0 l, 520 KM, 470 Nm, 0-100 km/h: 3.2 s, 312 km/h, RWD, 7-Speed PDK, Rear-Wheel Steering, Carbon Ceramic Brakes, 1,430 kg</span></li>
+    <li class="li1">Nissan GT-R NISMO: <span class="span">V6, 3.8 l, 600 KM, 652 Nm, 0-100 km/h: 2.5 s, 315 km/h, AWD, 6-Speed, Bilstein DampTronic Suspension, Carbon Ceramic Brakes, 1,746 kg</span></li>
+    <li class="li1">Lamborghini URUS: <span class="span">V8, 4.0 l, 650 KM, 850 Nm, 0-100 km/h: 3.6 s, 305 km/h, AWD, 8-Speed, Adaptive Air Suspension, Carbon Ceramic Brakes, 2,200 kg</span></li>
+    <li class="li1">Ferrari F40: <span class="span">V8, 2.9 l, 478 KM, 577 Nm, 0-100 km/h: 4.1 s, 324 km/h, RWD, 5-Speed, Twin-Turbocharged, Carbon Fiber Chassis, 1,100 kg</span></li>
+</ul>
+</section>
+<hr class="hr1" >
+<footer>
+    Sebastian Łaganowski 2tc
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
